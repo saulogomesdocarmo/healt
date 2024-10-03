@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+header {
+    margin: 20px 0px 25px 0px;
+}
+
+/*titutlos*/
+header h1 {
+    font-size: 2.5em;
+    color: #cc470d;
+}
+
+/*inputs*/
+input[type=number] {
+    width: 90px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #cc470d;
+    font-size: 1em;
+}
+
+/* radio buttons */
+.Radio {
+    margin: 25px 0px;
+}
+
+#f {
+    margin-left: 25px;
+}
+
+/*Combobox*/
+#atividade {
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #cc470d;
+    ;
+}
+
+/*botoes*/
+
+input[type=button],
+input[type=reset] {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #cc470d;
+    color: #ffffff;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+input[type=reset] {
+    margin-left: 20px;
+}
+
+/*linhas*/
+
+hr {
+    margin: 10px 0px;
+}
+
+/*mostrador e coração pulstante*/
+/*mostrador*
+/*coração pulsando*/
+.coracao {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: yellow;
+    transform: rotate(-135deg);
+    z-index: -1;
+    left: 20%;
+    animation: pulsar 0.7s infinite alternate;
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #ff0000;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #ff0000;
+    ;
+    border-radius: 50px;
+}
+
+.top {
+    top: 50%;
+}
+
+.left {
+    left: 50%;
+}
+
+/*Função CSS para ampliar e reduzir o coração*/
+@keyframes pulsar {
+    0% {
+        transform: scale(0.95) rotate(-135deg);
+    }
+
+    100% {
+        transform: scale(1.15) rotate(-135deg);
+    }
+}
+
+/*Calorias e agua*/
+
+#calorias,
+#agua {
+    font-size: 1.3em;
+}
+
+#calorias {
+    color: #cc470d;
+}
+
+#agua {
+    color: #0d96cc
+}
