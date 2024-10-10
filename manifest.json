@@ -1,0 +1,13 @@
+{
+    "name": "healt",
+    "start_url":"/healt",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons":[
+        {
+            "src": "img/balanca.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
