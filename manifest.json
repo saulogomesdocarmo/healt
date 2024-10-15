@@ -1,0 +1,13 @@
+{
+    "name": "Health",
+    "start_url": "/health",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/balanca.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
