@@ -1,5 +1,6 @@
 /**
- * @link 
+ * @link https://github.com/saulogomesdocarmo/healt
+ * @author Saulo Gomes
  * @version 1.0
  */
 let peso, altura, imc, idade, fcm, litros, get
