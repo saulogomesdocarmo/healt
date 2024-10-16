@@ -1,6 +1,6 @@
 {
     "name": "Health",
-    "start_url": "/health",
+    "start_url": "/healt",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [
